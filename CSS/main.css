@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+menu {
+
+    height: 150px;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.bienvenida {
+    margin-top: 60px; 
+    text-align: center; 
+}
+
+.honda {
+    margin-top: 60px; 
+    text-align: center; 
+}
+
+.kawasaki {
+    margin-top: 60px; 
+    text-align: center; 
+}
+
+.yamaha {
+    margin-top: 60px; 
+    text-align: center; 
+}
+
+.about_us {
+    margin-top: 60px; 
+    text-align: center; 
+}
+
+.contact_us {
+    margin-top: 60px; 
+    text-align: center; 
+}
+
+.menu-izquierda{
+
+width: 25%;
+background-color: white;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+
+}
+
+.menu-izquierda img{
+    width: 100px;
+}
+
+.menu-derecha{
+
+width: 75%;
+background-color: gray;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: right;
+padding-right: 70px;
+
+}
+
+.menu-derecha a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.menu-derecha a:hover{
+    scale: 1.2;
+    color: greenyellow;
+
+}
