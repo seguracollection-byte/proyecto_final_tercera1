@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="widht=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Proyecto Tercera 1</title>
+    <title>Tercera 1</title>
 </head>
 <body>
     <header>
@@ -18,11 +18,19 @@
 
             <div class="menu-derecha">
               <a href="./index.php">Home</a>
-              <a href="./yamaha.php">Yamaha</a>
               <a href="./honda.php">Honda</a>
+              <a href="./yamaha.php">Yamaha</a>
               <a href="./kawasaki.php">Kawasaki</a>  
-              <a href="./about_us.php">About us</a>  
-              <a href="./contact_us.php">Contact us</a>  
+              <a href="./about_us.php">About Us</a>
+            </div>
+            </div>
+
+            <div class="menu-container">
+                 <div class="hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+                 </div>
             </div>
         </menu>  
 

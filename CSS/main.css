@@ -9,75 +9,135 @@ menu {
     background-color: burlywood;
     display: flex;
     flex-direction: row;
-   
-}
-
-.bienvenida {
-    margin-top: 60px; 
-    text-align: center; 
-}
-
-.honda {
-    margin-top: 60px; 
-    text-align: center; 
-}
-
-.kawasaki {
-    margin-top: 60px; 
-    text-align: center; 
-}
-
-.yamaha {
-    margin-top: 60px; 
-    text-align: center; 
-}
-
-.about_us {
-    margin-top: 60px; 
-    text-align: center; 
-}
-
-.contact_us {
-    margin-top: 60px; 
-    text-align: center; 
-}
-
-.menu-izquierda{
-
-width: 25%;
-background-color: white;
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
 
 }
 
-.menu-izquierda img{
+.menu-izquierda {
+
+    width: 25%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.menu-izquierda img {
     width: 100px;
 }
 
-.menu-derecha{
+.menu-derecha {
 
-width: 75%;
-background-color: gray;
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: right;
-padding-right: 70px;
+    width: 75%;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    padding-right: 50px;
 
 }
 
-.menu-derecha a{
+.menu-derecha a {
     text-decoration: none;
     color: white;
     font-size: 20px;
     padding-left: 20px;
 }
 
-.menu-derecha a:hover{
+.menu-derecha a:hover {
     scale: 1.2;
     color: greenyellow;
 
+}
+
+.bienvenida {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.honda {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.kawasaki {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.yamaha {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.about_us {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.contact_us {
+    margin-top: 60px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+.menu-izquierda {
+    width: 45%;
+    justify-content: center;
+}
+   
+.menu-derecha {
+    display: none;
+
+}
+
+.menu-container {
+background-color: black;
+width: 15%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.menu-container .hamburger-icon {
+    width: 35px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-container .hamburger-icon span {
+    background-color: white;
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+}
+
+.menu-derecha-open {
+
+    padding: 0;
+    margin: 0;
+    width: 40%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1000;
+
+}
+
+.menu-derecha a {
+    
+    font-size: 25px;
+
+
+
+}
 }
