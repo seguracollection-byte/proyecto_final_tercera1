@@ -1,7 +1,13 @@
-<?php require_once "./vistas/vista_superior.php"?>
+<?php require_once "./vistas/vista_superior.php" ?>
 
+<div class="honda-container">
+    <h1 class="honda">
 
-<h1 class="honda">Honda </h1>
+        <img src="./img/honda_logo.jpg" alt="Honda" class="honda-logo">
+        Honda
+        <img src="./img/honda_logo.jpg" alt="Honda" class="honda-logo">
 
+    </h1>
+</div>
 
-<?php require_once "./vistas/vista_inferior.php"?>
+<?php require_once "./vistas/vista_inferior.php" ?>

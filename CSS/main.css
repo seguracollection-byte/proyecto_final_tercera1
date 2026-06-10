@@ -6,7 +6,7 @@
 menu {
 
     height: 150px;
-    background-color: burlywood;
+    background-color: white;
     display: flex;
     flex-direction: row;
 
@@ -15,7 +15,7 @@ menu {
 .menu-izquierda {
 
     width: 25%;
-    background-color: aquamarine;
+    background-color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -52,92 +52,99 @@ menu {
 
 }
 
-.bienvenida {
+.bienvenida,
+.honda,
+.kawasaki,
+.yamaha,
+.about-us {
     margin-top: 60px;
     text-align: center;
-}
-
-.honda {
-    margin-top: 60px;
-    text-align: center;
-}
-
-.kawasaki {
-    margin-top: 60px;
-    text-align: center;
-}
-
-.yamaha {
-    margin-top: 60px;
-    text-align: center;
-}
-
-.about_us {
-    margin-top: 60px;
-    text-align: center;
-}
-
-.contact_us {
-    margin-top: 60px;
-    text-align: center;
-}
-
-@media (max-width: 768px) {
-.menu-izquierda {
-    width: 45%;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
-   
-.menu-derecha {
-    display: none;
 
+.honda-logo,
+.kawasaki-logo,
+.yamaha-logo {
+    width: 40px;
+    height: auto;
 }
 
 .menu-container {
-background-color: black;
-width: 15%;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
+    display: none;
 }
 
-.menu-container .hamburger-icon {
-    width: 35px;
-    height: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+@media (max-width: 768px) {
 
-.menu-container .hamburger-icon span {
-    background-color: white;
-    display: block;
-    width: 100%;
-    height: 4px;
-    border-radius: 2px;
-}
-
-.menu-derecha-open {
-
-    padding: 0;
-    margin: 0;
-    width: 40%;
-    height: auto;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    z-index: 1000;
-
-}
-
-.menu-derecha a {
-    
-    font-size: 25px;
+    .menu-izquierda {
+        width: 75% !important;
+        background-color: white;
+        /* El color que ya tenías */
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        /* 👈 Empuja el logo al inicio (izquierda) */
+        padding-left: 20px;
+    }
 
 
+    .menu-derecha {
+        display: none !important;
+    }
 
-}
+
+    .menu-container {
+        background-color: grey;
+        /* Tu fondo negro */
+        width: 25% !important;
+        /* 👈 Subimos el ancho al 50% para repartir la pantalla a la mitad */
+        display: flex !important;
+        flex-direction: row;
+        justify-content: center;
+        /* 👈 ¡ESTO lo empuja por completo a la derecha! */
+        align-items: center;
+        padding-right: 20px;
+    }
+
+
+    .menu-container .hamburger-icon {
+        width: 35px;
+        height: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+
+    .menu-container .hamburger-icon span {
+        background-color: white;
+        display: block;
+        width: 100%;
+        height: 4px;
+        border-radius: 2px;
+    }
+
+
+    .menu-derecha.menu-derecha-open {
+        display: flex !important;
+        flex-direction: column;
+        position: absolute;
+        top: 150px;
+        left: 0;
+        width: 100%;
+        background-color: black;
+        z-index: 1000;
+        padding: 20px 0;
+    }
+
+
+    .menu-derecha.menu-derecha-open a {
+        font-size: 25px;
+        padding: 15px 0;
+        text-align: center;
+        width: 100%;
+    }
 }
