@@ -10,4 +10,6 @@
     </h1>
 </div>
 
+<div class="main-accordion-container"></div>
+
 <?php require_once "./vistas/vista_inferior.php" ?>
