@@ -1,20 +1,25 @@
 console.log('Cargando Accordion...');
 const dataAccordion = [{
-  "title": "¿Qué son los Deportes Electrónicos?",
-  "desc": "Son deportes electrónicos, que se pueden practicar desde una PC o Consola de Videojuegos."
+  "title": "<strong>¿Quienes Somos?</strong>",
+  "desc": "Fundada en 2026, MotoHub es el punto de encuentro definitivo para los apasionados de las dos ruedas. Combinamos una tienda de motocicletas de alta calidad con una plataforma informativa de confianza, ofreciendo reseñas, guías técnicas y consejos para que rodés con seguridad y libertad. No solo vendemos motos, construimos comunidad."
 },
 {
-  "title": "¿Qué se necesita para formar parte de un equipo de E-Sports?",
-  "desc": "Se necesita una PC o una Consola, además de mucha dedicación y esfuerzo."
+  "title": "<strong>Nuestra Misión</strong>",
+  "desc": "Equipar a los motociclistas con los mejores vehículos del mercado y el conocimiento necesario para disfrutar de la ruta con total seguridad, transparencia y libertad."
 },
 {
-  "title": "¿Son los E-Sports reconocidos como un deporte real?",
-  "desc": "El debate sobre si son deporte siempre genera polémica, pero los expertos lo tienen claro, lo son. Gobiernos como el estadounidense o el alemán reconocen a los jugadores profesionales de videojuegos como atletas y el Comité Olímpico Coreano ha concedido el rango de deporte olímpico a los esports."
+  "title": "<strong>Nuestra Visión</strong>",
+  "desc": "Ser la plataforma digital de referencia en el mundo del motociclismo, transformando la forma en que los pilotos investigan, compran y viven la cultura de las dos ruedas."
 },
 {
-  "title": "¿Desde cuándo existen los E-Sports?",
-  "desc": "Los esports existen desde hace tiempo, pero es en la actualidad cuando están viviendo su mejor momento en términos de notoriedad, inversión y seguidores, gracias también a la expansión de internet y las nuevas tecnologías y plataformas. Lo que en un principio eran torneos minoritarios o locales, en los últimos tiempos se ha convertido en un fenómeno en el que no solo los jugadores profesionales están implicados, sino también los millones de fans de los videojuegos y la competición que lo siguen desde sus casas o llenan estadios de todo el mundo, desde Seúl hasta Berlín, pasando por Nueva York o Madrid."
-}];
+  "title": "<strong>Nuestros Valores</strong>",
+  "desc": "<strong>• Comunidad:</strong> Nos mueve el espíritu de hermandad motera.<br><br> <strong>• Seguridad:</strong> Promovemos una conducción responsable con información clara y vehículos óptimos.<br><br> <strong>• Innovación:</strong> Te traemos siempre las últimas tendencias y tecnologías del mercado."
+},
+{
+  "title": "<strong>¿Por qué elegir MotoHub?</strong>",
+  "desc": "<strong>• Pasión real:</strong> Somos un equipo de motociclistas que entiende lo que necesitás.<br><br> <strong>• Transparencia:</strong> Información sin filtros para que comprés con total confianza.<br><br> <strong>• Soporte continuo:</strong> Te acompañamos antes, durante y después de tu compra con contenido de valor."
+},
+];
 
 
 (function () {

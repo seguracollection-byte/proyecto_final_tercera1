@@ -29,13 +29,6 @@ const dataCards = [{
   "link": "./venta.php"
 },
 {
-  "title": "Tours de Aventura",
-  "url_image": ".img/cuatrimoto.jpg",
-  "desc": "Ven a explorar el mundo sobre dos o cuatro ruedas con nuestros emocionantes tours de aventura. Descubre paisajes impresionantes, culturas fascinantes y experiencias inolvidables mientras recorres rutas diseñadas para los amantes de la motocicleta.",
-  "cta": "Ver Tours",
-  "link": "./tours.php"
-},
-{
   "title": "About Us",
   "url_image": "https://lsinet.co.uk/wp-content/uploads/2019/09/usa-1249880_1920.jpg",
   "desc": "Quieres saber más sobre nosotros? En Moto Hub, somos apasionados por las motocicletas y estamos dedicados a ofrecerte la mejor experiencia en ventas y tours de aventura. Con años de experiencia en la industria, nuestro equipo está comprometido a brindarte un servicio excepcional y ayudarte a encontrar la moto perfecta para ti.",

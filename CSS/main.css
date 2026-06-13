@@ -130,7 +130,7 @@ body.dark-theme .card-info p {
 
 body.dark-theme .accordion-item {
     background-color: #121212 !important;
-    border: 1px solid #121212;
+    border: 1px solid #f8f3f3;
 }
 
 body.dark-theme .accordion-title {
@@ -242,7 +242,7 @@ body.dark-theme .accordion-item.tab-active .accordion-desc {
 }
 
 .accordion-title {
-    background-color: burlywood;
+    background-color: rgb(203, 200, 200);
     color: white;
     padding: 15px;
     cursor: pointer;
@@ -263,19 +263,19 @@ body.dark-theme .accordion-item.tab-active .accordion-desc {
     max-height: 200px; 
     opacity: 1;
     background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 
 /* Estilos cambio modo telefono */
 @media (max-width: 768px) {
 
     .menu-izquierda {
         width: 75% !important;
-        background-color: white;
-        /* El color que ya tenías */
+        background-color: rgb(203, 200, 200);
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        /* 👈 Empuja el logo al inicio (izquierda) */
         padding-left: 20px;
     }
 
@@ -286,7 +286,7 @@ body.dark-theme .accordion-item.tab-active .accordion-desc {
 
 
     .menu-container {
-        background-color: grey;
+        background-color: rgb(203, 200, 200);
         /* Tu fondo negro */
         width: 25% !important;
         display: flex !important;
@@ -324,7 +324,7 @@ body.dark-theme .accordion-item.tab-active .accordion-desc {
         top: 150px;
         left: 0;
         width: 100%;
-        background-color: black;
+        background-color: rgb(203, 200, 200);
         z-index: 1000;
         padding: 20px 0;
     }
@@ -345,4 +345,7 @@ body.dark-theme .accordion-item.tab-active .accordion-desc {
     overflow: hidden;
 
 }
+
+
+
 }

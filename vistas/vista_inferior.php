@@ -2,10 +2,10 @@
 
 
 
+<script src="script/hamburger-icon.js"></script>
+<script src="script/cards.js"></script>
+<script src="script/accordion.js"></script>
+<script src="script/theme.js"></script>
+</body>
 
-      <script src="script/hamburger-icon.js"></script>
-      <script src="script/cards.js"></script>
-      <script src="script/accordion.js"></script>
-      <script src="script/theme.js"></script>
-  </body>
 </html>

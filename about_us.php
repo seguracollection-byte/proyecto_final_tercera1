@@ -4,4 +4,6 @@
 <h1 class="about_us">About us </h1>
 
 
+<div class="main-accordion-container"></div>
+
 <?php require_once "./vistas/vista_inferior.php"?>

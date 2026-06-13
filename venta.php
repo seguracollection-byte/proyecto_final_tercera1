@@ -6,5 +6,8 @@
     </h1>
 </div>
 
+<div class="card-list"> </div>
+
+<script src="script/venta_cards.js"></script>
 
 <?php require_once "./vistas/vista_inferior.php" ?>

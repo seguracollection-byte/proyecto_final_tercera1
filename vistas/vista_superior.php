@@ -31,7 +31,6 @@
                 <a href="./yamaha.php">Yamaha</a>
                 <a href="./kawasaki.php">Kawasaki</a>
                 <a href="./venta.php">Venta</a>
-                <a href="./tours.php">Tours</a>
                 <a href="./about_us.php">About Us</a>
             </div>
 
